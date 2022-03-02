@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <style>
+        .heading {
+            margin-top: 100px;
+            margin-left: 36%;
+            /*background-color: azure;*/
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            /*background-color: aqua;*/
+            height: 100px;
+        }
+
+        .flex>div {
+            /*margin: 30px;*/
+            /*margin-left: 30%;*/
+        }
+
+        #remember{
+            margin-left: 38%;
+        }
+
+        .btn{
+            margin-left: 45%;
+        }
+        .btn>button{
+            /*margin-left: 48%;*/
+            width: 90px;
+            height: 30px;
+            border: 2px solid;
+            border-radius: 3px;
+        }
+        #emailpassTxt{
+            border: 2px solid;
+            height: 20px;
+            border-radius: 3px;
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <div class="heading">
+            <h1>SIGN IN TO CONTINUE</h1>
+        </div><br><br>
+
+
+        <form action="form.php">
+            <div class="flex">
+                <div>
+                    <span>&emsp;
+                        User Name or Email
+                    </span><br><br>
+                    <input type="text" name="emailTxt" id="emailpassTxt">
+
+                </div> &emsp;
+
+                <div>
+                    
+                    <span >&emsp;
+                        Password
+                    </span><br><br>
+                    <input type="password" name="password" id="emailpassTxt">
+                </div>
+
+
+            </div>
+
+            <div>
+                <input type="checkbox" name="remember" id="remember"> Remember me
+            </div><br><br>
+
+            <div class="btn">
+                <button>
+                    Login
+                </button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

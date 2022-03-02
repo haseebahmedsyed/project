@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <STYle>
+        .heading{
+            margin-left: 40%;
+            margin-top: 10%;
+        }
+
+        .input>input{
+            width: 250px;
+            height: 30px;
+            border: 2px solid;
+            border-radius: 3px;
+        }
+
+        .flexin{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .txtArea{
+            height: inherit;
+            width: 300px;
+            margin-left: 5%;
+        }
+        .btn{
+            margin-left: 41%;
+            width: 150px;
+            height: 40px;
+            border: 2px solid;
+            border-radius: 3px;
+        }
+
+    </STYle>
+
+</head>
+
+<body>
+
+    <main>
+        <div class="heading">
+            <h1>
+                <h1>CONTACT</h1>
+            </h1>
+        </div><br><br>
+
+        <form action="act.php">
+            <div class="flex">
+                <div class="flexin">
+                    <div class="input">
+                        <input type="text" placeholder="Name">
+                    </div><br><br>
+                    <div class="input">
+                        <input type="email" name="email" placeholder="Email">
+                    </div><br><br>
+                    
+                    <div class="input">
+                        <input type="tel" name="contact" placeholder="Phone">
+                    </div>
+                </div>&emsp;
+
+                <div class="txtArea">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your massage here.."></textarea>
+                </div>
+
+
+            </div>
+            <br><br><br>
+            <div >
+                <button class="btn">
+                    CONTACT
+                </button>
+            </div>
+
+
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
